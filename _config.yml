@@ -118,9 +118,9 @@ author:
   location         : "South Korea/Seoul"
   email            : "cutiepepe2926@gmail.com"
   links:
-    - label: "Email"
+    - label: "Github"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cutiepepe2926@email.com"
+      #url: "mailto:cutiepepe2926@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
