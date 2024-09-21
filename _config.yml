@@ -48,7 +48,6 @@ comments:
   utterances:
     theme                : "github-dark"   # "github-light" (default), "github-dark"
     issue_term           : "pathname" # "pathname" (default)
-    label: "comments"
 
 
   giscus:
