@@ -23,7 +23,7 @@ name                     : "cutiepepe2926"
 description              : "Posting what I'v learned"
 url                      : "https://cutiepepe2926.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "cutiepepe2926/cutiepepe2926.github.io/_posts"
+repository               : "cutiepepe2926/cutiepepe2926.github.io/tree/master/_posts"
 teaser                   : "/assets/images/teaser.png" #500x300.png
 logo                     : "/assets/images/logo.jpg" #88x88.png
 masthead_title           : " "# overrides the website title displayed in the masthead, use " " for no title
