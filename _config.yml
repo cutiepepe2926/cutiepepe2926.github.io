@@ -14,7 +14,7 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Cutie_pepe's Blog"
 title_separator          : "-"
@@ -32,6 +32,8 @@ words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
+
+
 comments:
   provider               : "utterances"    # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -131,9 +133,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -231,7 +230,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -326,5 +325,13 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       enable_copy_code_button: true
+
+   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true   
 
 
