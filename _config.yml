@@ -14,7 +14,7 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Cutie_pepe's Blog"
 title_separator          : "-"
@@ -23,13 +23,13 @@ name                     : "cutiepepe2926"
 description              : "Posting what I'v learned"
 url                      : "https://cutiepepe2926.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "cutiepepe2926/cutiepepe2926.github.io"
+repository               : "cutiepepe2926/comments"
 teaser                   : "/assets/images/teaser.png" #500x300.png
 logo                     : "/assets/images/logo.jpg" #88x88.png
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : "false" # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : "ture" # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 
